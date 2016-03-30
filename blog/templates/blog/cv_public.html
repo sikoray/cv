@@ -13,13 +13,13 @@
 		<div class="header">
 						
 		</div>
-		{% for head in head %}
-			<div id="text" >
-				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
-				<h3>{{ head.title }}</h3>
-	            <p>{{ head.text|linebreaks }}</p>
-			</div>
-		{% endfor %}
+			{% for head in head %}
+				<div id="text" >
+					<!--<p id="text">{{ post.text|linebreaks }}</p> -->
+					<h3>{{ head.title }}</h3>
+		            <p>{{ head.text|linebreaks }}</p>
+				</div>
+			{% endfor %}
 		<div >
 			<img class ="photo" src="https://lh3.googleusercontent.com/-qh7jgbHdOp8/VuvPjLksYbI/AAAAAAAACug/NNEdYNzMb0QfbdZjrysPuBVKZbV2lR0uwCCo/s300-Ic42/Bart-simpson-300x300.gif"/>
 		</div>
@@ -50,11 +50,11 @@
 		</div>
 		<div id="experience" >
 			{% for experience in experience %}
-			<div  >
-				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
-				
-	            <p>{{ experience.text|linebreaks }}</p>
-			</div>
+				<div  >
+					<!--<p id="text">{{ post.text|linebreaks }}</p> -->
+					
+		            <p>{{ experience.text|linebreaks }}</p>
+				</div>
 			{% endfor %}
 		</div>	
 		<a href="#x" class="overlay" id="win1"></a>
