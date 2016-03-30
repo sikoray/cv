@@ -5,5 +5,4 @@ from .models import Head, Skils, Experience
 def post_list(request):
     head = Head.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     skils = Skils.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    experience = Experience.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'blog/cv_public.html', {'head': head,'skils': skils,'experience': experience})
+    return render(request, 'blog/cv_public.html', {'head': head,'skils': skils})

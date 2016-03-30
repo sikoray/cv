@@ -1,0 +1,69 @@
+
+{% load staticfiles %}
+<!doctype> 
+</html>         
+	<head>
+	<meta charset="UTF-8">
+	<title>CV Sikora Yaroslav</title>
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	</head>
+	<body id="col" >
+		
+
+		<div class="header">
+						
+		</div>
+		{% for head in head %}
+			<div id="text" >
+				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
+				<h3>{{ head.title }}</h3>
+	            <p>{{ head.text|linebreaks }}</p>
+			</div>
+		{% endfor %}
+		<div >
+			<img class ="photo" src="https://lh3.googleusercontent.com/-qh7jgbHdOp8/VuvPjLksYbI/AAAAAAAACug/NNEdYNzMb0QfbdZjrysPuBVKZbV2lR0uwCCo/s300-Ic42/Bart-simpson-300x300.gif"/>
+		</div>
+		<div>
+			<ul id="menu">
+	<li><a href="https://github.com/sikoray">GitHub</a></li>
+	<li>
+		<a href="#">Social Networks</a>
+		<ul>
+			<li><a href="http://www.facebook.com/sikora.jaroslav">FaceBook</a></li>
+			<li><a href="https://ua.linkedin.com/in/yaroslav-sikora-88066138">Linkedin</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#win1" class="button button-green">Contact me</a>
+	</li>
+	</ul>
+		</div>
+		<div id="skils">
+			<!--<p>SKILS</p>-->
+			{% for skils in skils %}
+			<div  >
+				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
+				
+	            <p>{{ skils.text|linebreaks }}</p>
+			</div>
+			{% endfor %}
+		</div>
+		<div id="experience" >
+			{% for experience in experience %}
+			<div  >
+				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
+				
+	            <p>{{ experience.text|linebreaks }}</p>
+			</div>
+			{% endfor %}
+		</div>	
+		<a href="#x" class="overlay" id="win1"></a>
+		<div class="popup">
+		    <p>mail:sikora.y@nton.info</p>
+		    <p>phone # :380 63 450 24 77</p>
+		    <p>skype:sikora.jaroslav</p>
+			<a class="close"title="Закрыть" href="#close"></a>
+		</div>
+
+	</body>
+</html>

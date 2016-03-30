@@ -1,0 +1,255 @@
+.header {
+  height: 200px;
+  /*border: 2px solid #456;*/
+  color: white;
+  background-color: #1c222a;
+  /*background-image: url(http://photoshopworld.ru/lessons/275/paper.jpg);*/
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  opacity: 0.85;
+  font-family: 'Tahoma', Arial, sans-serif;
+  box-shadow: 2px 1px 3px #777;
+  filter: blur(0.4px);
+  
+}
+
+#wall{
+    background-image: url(http://oboi-colibri.ru/wp-content/uploads/2013/12/coobiks.jpg);
+    opacity: 0.3;
+    width: 1500px;
+    height:800px;
+    z-index: 25;
+}
+
+#skils{
+    float: left;
+    
+    background-color: #edb021;
+    /*border: 2px solid black;*/
+    width: 30%;
+    height: 500;
+    color: #efeae6;
+    margin-top: 210px;
+    text-align: center;
+    font-family: 'Tahoma', Arial, sans-serif;
+    filter: blur(0.1px);
+    
+
+    /*opacity: 0.8;*/
+    box-shadow: 2px 1px 3px #777;
+    box-shadow: 2px 1px 3px #777;
+    z-index: -1;
+
+
+}
+
+#experience {
+    float: right;
+    
+    background-color: #edb021;
+    /*border: 2px solid black;*/
+    width: 69%;
+    height: 500;
+    margin-top: 210px;
+    text-align: center;
+    font-family: 'Tahoma', Arial, sans-serif;
+    filter: blur(0.15px);
+    z-index: -1;
+
+   
+}
+
+.photo{
+    height: 150px;
+    width: 150px;
+    /*border: 2px solid black;*/
+    opacity: 1;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    filter: blur(0.1px);
+}
+
+#text{
+    
+    margin-top: 20px;
+    margin-left: 180px;
+    position: fixed;
+    opacity: 1;
+    color: #dcdcdc;
+    font-family: 'Tahoma', Arial, sans-serif;
+    filter: blur(0.15px);
+    
+}
+
+#menu {
+    margin-top: 128px;
+    margin-left: 150px;
+    font-size: 100%;
+    font-family: 'Tahoma', Arial, sans-serif;
+    position: fixed;
+
+    }
+#menu li {
+    list-style: none;
+    float: left;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #825b00;
+    position: relative;
+    padding-top: 12px;
+    margin-left: 150px;
+
+    border-radius: 3px;
+    opacity: 1;
+    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    filter: blur(0.4px);
+
+    }
+
+#menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    border-radius: none;
+
+
+    }
+#menu li ul li {
+    float: none;
+    height: 33px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    /*background: #7F7F7F;*/
+    margin-top: 10px;
+
+    }
+#menu li a {
+    display: block;
+    width: 150px;
+    height: 33px;
+    color: #fff;
+    text-decoration: none;
+    }
+#menu li:hover ul, #menu li.jshover ul {
+    display: block;
+    }
+#menu li:hover, #menu li.jshover {
+    filter: blur(0px);
+    }
+
+#col{
+    /*background-image: url(http://templatemints.com/rttheme13/images/background_images/abstract_background7.jpg);*/
+    background-color: #6a655d;
+    /*background-color: #edb021;*/
+     
+
+}
+
+
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    cursor: default;
+}
+
+.overlay:target {
+    display: block;
+}
+
+.popup {
+    top: -100%;
+    right: 0;
+    left: 50%;
+    font-size: 14px;
+    z-index: 20;
+    margin: 0;
+    width: 85%;
+    min-width: 320px;
+    max-width: 600px;
+    position: fixed;
+    padding: 15px;
+    border: 2px solid #383838;
+    background: #fefefe;
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    background-color: #6a655d;
+    color: #dcdcdc;
+    text-align: center;
+
+    
+}
+
+.overlay:target+.popup {
+   
+    
+   
+    transform: translate(-50%, 0);
+    top: 20%;
+}
+
+.close {
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    padding: 0;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(61, 61, 61, 0.8);
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    text-decoration: none;
+    font: 13px/20px 'Tahoma', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.close:before {
+    color:#edb021;
+    content: "X";
+    /*text-shadow: 0 -1px rgba(0, 0, 0, 0.9);*/
+    font-size: 12px;
+}
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+    
+}
+
+.popup h2 { 
+    margin: 0;
+    color: #008000;
+    /*padding: 5px 0px 10px;*/
+    text-align: left;
+    text-shadow: 1px 1px 3px #adadad;
+    font-weight: 500;
+    font-size: 1.4em;
+    font-family: 'Tahoma', Arial, sans-serif;
+    line-height: 1.3;
+
+}
+
+.popup p {
+    margin: 0; 
+    /*padding: 5px 0;*/
+    
+}
