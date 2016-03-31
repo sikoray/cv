@@ -15,7 +15,6 @@
 		</div>
 			{% for head in head %}
 				<div id="text" >
-					<!--<p id="text">{{ post.text|linebreaks }}</p> -->
 					<h3>{{ head.title }}</h3>
 		            <p>{{ head.text|linebreaks }}</p>
 				</div>
@@ -25,38 +24,33 @@
 		</div>
 		<div>
 			<ul id="menu">
-	<li><a href="https://github.com/sikoray">GitHub</a></li>
-	<li>
-		<a href="#">Social Networks</a>
-		<ul>
-			<li><a href="http://www.facebook.com/sikora.jaroslav">FaceBook</a></li>
-			<li><a href="https://ua.linkedin.com/in/yaroslav-sikora-88066138">Linkedin</a></li>
-		</ul>
-	</li>
-	<li>
-		<a href="#win1" class="button button-green">Contact me</a>
-	</li>
-	</ul>
+				<li><a href="https://github.com/sikoray">GitHub</a></li>
+				<li><a href="#">Social Networks</a>
+					<ul>
+						<li><a href="http://www.facebook.com/sikora.jaroslav">FaceBook</a></li>
+						<li><a href="https://ua.linkedin.com/in/yaroslav-sikora-88066138">Linkedin</a></li>
+					</ul>
+				</li>
+				<li><a href="#win1" class="button button-green">Contact me</a></li>
+			</ul>
 		</div>
+
 		<div id="skils">
-			<!--<p>SKILS</p>-->
 			{% for skils in skils %}
-			<div  >
-				<!--<p id="text">{{ post.text|linebreaks }}</p> -->
-				
-	            <p>{{ skils.text|linebreaks }}</p>
+			<div >
+				<p>{{ skils.text|linebreaks }}</p>
 			</div>
 			{% endfor %}
 		</div>
+
 		<div id="experience" >
 			{% for experience in experience %}
 				<div  >
-					<!--<p id="text">{{ post.text|linebreaks }}</p> -->
-					
-		            <p>{{ experience.text|linebreaks }}</p>
+					<p >{{ experience.text|linebreaks }}</p>
 				</div>
 			{% endfor %}
 		</div>	
+
 		<a href="#x" class="overlay" id="win1"></a>
 		<div class="popup">
 		    <p>mail:sikora.y@nton.info</p>
