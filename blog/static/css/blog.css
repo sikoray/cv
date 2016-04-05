@@ -1,5 +1,6 @@
 .header {
   height: 250px;
+  width: 1300px;
   color: white;
   background-color: #1c222a;
   position: fixed;
@@ -14,7 +15,7 @@
     float: left;    
     background-color: #edb021;
     width: 29%;
-    height: 800px;
+    height: 900px;
     padding: 10px;
     margin-top: 260px;
     text-align: left;
@@ -28,7 +29,7 @@
     padding: 10px;
     background-color: #edb021;
     width: 67%;
-    height: 800px;
+    height: 900px;
     margin-top: 260px;
     text-align: left;
     font-family: Times New Roman, 'Tahoma', Arial, sans-serif;
@@ -42,9 +43,11 @@
     width: 200px;
     opacity: 1;
     float: left;
-    margin-top: 20px;
+    margin-top: 22px;
     margin-left: 20px;
     position: fixed;
+    border: 2px solid #825b00;
+    border-radius: 3px;
     filter: blur(0.1px);
 }
 
@@ -77,7 +80,7 @@
     background: #825b00;
     position: relative;
     padding-top: 12px;
-    margin-left: 100px;
+    margin-left: 135px;
     border-radius: 3px;
     opacity: 1;
     box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
@@ -124,7 +127,7 @@
 
 #col{
     background-color: #6a655d;
-    width: 1260px;
+    width: 1270px;
       
 }
 
