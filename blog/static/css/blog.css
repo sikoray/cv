@@ -219,3 +219,8 @@
     margin: 0; 
        
 }
+
+#counter{
+    float: left;
+    margin-top: 50px;
+}
