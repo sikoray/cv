@@ -6,25 +6,32 @@
 	<meta charset="UTF-8">
 	<title>CV Sikora Yaroslav</title>
 	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body id="col" >
 		
 
 		<div class="header">
 						
-		</div>
+		
 			{% for head in head %}
 				<div id="text" >
-					<h3>{{ head.title }}</h3>
+					<h2>{{ head.title }}</h2>
 		            <p>{{ head.text|linebreaks }}</p>
 				</div>
 			{% endfor %}
-		<div >
+		</div >
+		<div>
 			<img class ="photo" src="https://lh3.googleusercontent.com/-vQY-rKH2dA0/VwP8zg3je7I/AAAAAAAACvA/Qz3s1dTZ1-opcUql74ru33VOgnL-L4_qACCo/s364-Ic42/photo_from_cv_1_web.jpg"/>
 		</div>
 		<div>
 			<ul id="menu">
 				<li><a href="https://github.com/sikoray">GitHub</a></li>
+				<li><a href="http://www.ex.ua/load/237977085" download>Download CV</a></li>
 				<li><a href="#">Social Networks</a>
 					<ul>
 						<li><a href="http://www.facebook.com/sikora.jaroslav">FaceBook</a></li>

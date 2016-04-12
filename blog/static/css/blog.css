@@ -7,19 +7,22 @@
   top: 0%;
   right: 0%;
   left: 0%;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif; 
   opacity: 0.85;  
-  filter: blur(0.4px);  
+    
 }
 
 #skils{
     float: left;    
-    background-color: #edb021;
-    width: 29%;
+    background-color: #CCCCCC;
+    width: 31%;
     height: 900px;
     padding: 10px;
+    margin-left: 10px;
     margin-top: 260px;
     text-align: left;
-    font-family: Times New Roman, 'Tahoma', Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     z-index: -1;
 }
@@ -27,12 +30,12 @@
 #experience {
     float: right;
     padding: 10px;
-    background-color: #edb021;
+    background-color: #CCCCCC;
     width: 67%;
     height: 900px;
     margin-top: 260px;
     text-align: left;
-    font-family: Times New Roman, 'Tahoma', Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
     font-size: 17px;
     filter: blur(0.15px);
     z-index: -1;   
@@ -40,13 +43,12 @@
 
 .photo{
     height: 200px;
-    width: 200px;
-    opacity: 1;
+    width: 200px;    
     float: left;
     margin-top: 22px;
-    margin-left: 20px;
+    margin-left: 15px;
     position: fixed;
-    border: 2px solid #825b00;
+    border: 2px solid #CCCCCC;
     border-radius: 3px;
     filter: blur(0.1px);
 }
@@ -54,19 +56,19 @@
 #text{
     width: 1200px;
     height: 100px;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 245px;
     position: fixed;
     opacity: 1;
     color: #dcdcdc;
-    font-family: 'Tahoma', Arial, sans-serif;       
+    font-family: 'Ubuntu', sans-serif;       
 }
 
 #menu {
     margin-top: 180px;
     margin-left: 105px;
     font-size: 100%;
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: 'Lora', serif;
     position: fixed;
     width: 1300px;
 
@@ -74,13 +76,13 @@
 #menu li {
     list-style: none;
     float: left;
-    height: 33px;
+    height: 40px;
     width: 150px;
     text-align: center;
-    background: #825b00;
+    background: #333333;
     position: relative;
     padding-top: 12px;
-    margin-left: 135px;
+    margin-left: 100px;
     border-radius: 3px;
     opacity: 1;
     box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
@@ -103,7 +105,7 @@
 
 #menu li ul li {
     float: none;
-    height: 33px;
+    height: 40px;
     margin: 0;
     width: 150px;
     text-align: center;
@@ -113,7 +115,7 @@
 #menu li a {
     display: block;
     width: 150px;
-    height: 33px;
+    height: 40px;
     color: #fff;
     text-decoration: none;
     }
