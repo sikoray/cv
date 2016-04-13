@@ -1,6 +1,6 @@
 .header {
   height: 250px;
-  width: 1300px;
+  width: 980px;
   color: white;
   background-color: #1c222a;
   position: fixed;
@@ -9,7 +9,8 @@
   left: 0%;
   font-size: 15px;
   font-family: 'Ubuntu', sans-serif; 
-  opacity: 0.85;  
+  opacity: 0.85; 
+  margin: auto; 
     
 }
 
@@ -17,9 +18,9 @@
     float: left;    
     background-color: #CCCCCC;
     width: 31%;
-    height: 900px;
+    height: 980px;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 260px;
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
@@ -31,13 +32,12 @@
     float: right;
     padding: 10px;
     background-color: #CCCCCC;
-    width: 67%;
-    height: 900px;
+    width: 68%;
+    height: 980px;
     margin-top: 260px;
     text-align: left;
     font-family: 'Ubuntu', sans-serif;  
     font-size: 17px;
-    filter: blur(0.15px);
     z-index: -1;   
 }
 
@@ -46,7 +46,7 @@
     width: 200px;    
     float: left;
     margin-top: 22px;
-    margin-left: 15px;
+    margin-left: 22px;
     position: fixed;
     border: 2px solid #CCCCCC;
     border-radius: 3px;
@@ -54,7 +54,7 @@
 }
 
 #text{
-    width: 1200px;
+    width: 720px;
     height: 100px;
     margin-top: 8px;
     margin-left: 245px;
@@ -65,24 +65,25 @@
 }
 
 #menu {
-    margin-top: 180px;
-    margin-left: 105px;
-    font-size: 100%;
+    margin-top: 192px;
+    margin-left: 178px;
+    font-size: 125%;
     font-family: 'Lora', serif;
     position: fixed;
-    width: 1300px;
+    width: 980px;
+    text-align: center;
+
+
 
     }
 #menu li {
     list-style: none;
     float: left;
-    height: 40px;
-    width: 150px;
-    text-align: center;
+    height: 30px;
+    width: 150px;    
     background: #333333;
-    position: relative;
-    padding-top: 12px;
-    margin-left: 100px;
+    position: relative;    
+    margin-left: 30px;
     border-radius: 3px;
     opacity: 1;
     box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
@@ -96,26 +97,27 @@
     padding: 0;
     margin: 0;
     width: 150px;
+    height: 30px;
     display: none;
     position: absolute;
     left: 0;
-    top: 45px;
-    
+    top: 30px;
+      
     }
 
 #menu li ul li {
     float: none;
-    height: 40px;
+    height: 30px;
     margin: 0;
     width: 150px;
     text-align: center;
-    margin-top: 10px;
-
+    margin-top: 5px;
+    
     }
 #menu li a {
     display: block;
     width: 150px;
-    height: 40px;
+    height: 34px;
     color: #fff;
     text-decoration: none;
     }
@@ -129,7 +131,8 @@
 
 #col{
     background-color: #6a655d;
-    width: 1300px;
+    width: 980px;
+    margin: auto;
       
 }
 
